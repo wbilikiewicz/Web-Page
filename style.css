@@ -4,19 +4,19 @@ h1 {font-size: 100px; text-align: center; text-decoration: underline; text-trans
 p  {width: 198px;height: 5px;margin-top: 0px; font-size: 20px; }
 h2 {font-size: 50px; text-align: center; text-decoration: underline;}
 h3 {font-size: 25px; text-align: center; text-decoration: none;}
-h4 {font-size: 17; text-align: left;}
+h4 {font-size: 17; text-align: left; font-weight: normal;}
 li {font-size: 17; }
 
 #container {width: 1050px; margin: 0 auto;}
-#menu {display: table; padding: 0 10px 0; margin: 0 auto; overflow: hidden; font-size: 17px; background: #242424;}
+#menu {display: table; padding: 0 20px 0; margin: 0 auto; overflow: hidden; font-size: 17px; background: #242424;}
 #menu li {list-style-type: none; margin: 0 auto; float: left; }
 #menu li:hover {background: #404040;}
-#menu li a {display: block; color: silver; text-decoration: none; padding: 7px 10px 7px;}
+#menu li a {display: block; color: silver; text-decoration: none; padding: 10px 20px 10px;}
 #menu li a:hover {background: #404040; color: white;}
 #menu li li a {width: 160px;}
 #menu li ul {overflow: hidden; display: none; background: #242424;}
-#menu li:hover ul {position: absolute; padding: 0; display: block; width: 160px;}
-#menu *:hover {transition: 0.3s ease-in;}
+#menu li:hover ul {position: absolute; padding: 0; display: block; width: 190px;}
+#menu *:hover {transition: 0.5s ease-in;}
  
 /*ZAOKRĄGLONE ROGI*/
 #menu {border-radius: 3px;}
@@ -69,10 +69,9 @@ div.one_fourth {
 /*CONTENT*/
 #cwiczenia1 li { font-size:25; }
 #cwiczenia2 li { font-size:25; }
-#tekst1 li {font-family: tahoma; font-size:20; }
-#tekst2 li {font-family: tahoma; font-size:20; }
-#tekst3 li {font-family: tahoma; font-size:20; }
-#box1 { font-size:18; background: #F0F0F0; padding: 25px; border: 5px solid #640000; margin: 20px; -webkit-box-shadow: 8px 8px 8px #777; text-align: justify }
+#tekst1, #tekst2, #tekst3 {background: #F0F0F0; padding: 25px; border: 5px solid #640000; margin: 20px; -webkit-box-shadow: 8px 8px 8px #777; text-align: justify; }
+#tekst1 li, #tekst2 li , #tekst3 li {font-size:18;}
+#box1 { font-size:18; background: #F0F0F0; padding: 25px; border: 5px solid #640000; margin: 20px; -webkit-box-shadow: 8px 8px 8px #777; text-align: justify; }
 #box1 li { margin-bottom:15px; }
 
 /* LINKI */
