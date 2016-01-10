@@ -1,11 +1,11 @@
 /*PODSTAWOWE USTAWIENIA*/
-body {font-family: calibri; background: #e6e6e6;}
-h1 {font-family: tahoma; font-size: 100px; text-align: center; text-decoration: underline; text-transform: capitalize; letter-spacing: 3px; word-spacing: 10px; text-shadow: 3px 3px #621d1d;} 
+body {font-family: "Comic Sans MS", cursive, sans-serif; background: linear-gradient(236deg, #98e7ff, #d4d4d4); }
+h1 {font-size: 100px; text-align: center; text-decoration: underline; text-transform: capitalize; letter-spacing: 3px; word-spacing: 10px; text-shadow: 3px 3px #621d1d;} 
 p  {width: 198px;height: 5px;margin-top: 0px; font-size: 20px; }
-h2 {font-family: tahoma; font-size: 50px; text-align: center; text-decoration: underline;}
-h3 {font-family: tahoma; font-size: 25px; text-align: center; text-decoration: none;}
-h4 {font-family: tahoma; font-size: 17; text-align: left;}
-li {font-family: tahoma; font-size: 17; }
+h2 {font-size: 50px; text-align: center; text-decoration: underline;}
+h3 {font-size: 25px; text-align: center; text-decoration: none;}
+h4 {font-size: 17; text-align: left;}
+li {font-size: 17; }
 
 #container {width: 1050px; margin: 0 auto;}
 #menu {display: table; padding: 0 10px 0; margin: 0 auto; overflow: hidden; font-size: 17px; background: #242424;}
@@ -63,16 +63,17 @@ div.one_fourth {
 	margin-right: 2%;
 	margin-bottom: 25px;
 	width: 20%;
+  height: 24%;
 }
 
 /*CONTENT*/
 #cwiczenia1 li { font-size:25; }
 #cwiczenia2 li { font-size:25; }
-#box1 li { font-size:20; }
 #tekst1 li {font-family: tahoma; font-size:20; }
 #tekst2 li {font-family: tahoma; font-size:20; }
 #tekst3 li {font-family: tahoma; font-size:20; }
-
+#box1 { font-size:18; background: #F0F0F0; padding: 25px; border: 5px solid #640000; margin: 20px; -webkit-box-shadow: 8px 8px 8px #777; text-align: justify }
+#box1 li { margin-bottom:15px; }
 
 /* LINKI */
 a:link {color: black; background-color:transparent; text-decoration:none}
