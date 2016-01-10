@@ -7,3 +7,7 @@
 * [x] [Dieta dla kobiet](dietadlakobiet.html)
 * [x] [Dieta dla mezczyzn](dietadlamezczyzn.html)
 * [x] [Kawa](kawa.html)
+
+# Web-Page CSS files:
+
+* [x] [Style](style.css)
